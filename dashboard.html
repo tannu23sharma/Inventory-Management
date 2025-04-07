@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Technical Documentation Page</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  </head>
+  <body>
+    <nav id="topNav"></nav>
+    <nav id="navbar">
+      <header>SUPPLY SQUAD</header>
+      <ul>
+        <li><a class="nav-link" href="dashboard.html">Dashboard</a></li>
+         <li><a class="nav-link" href="#inventory">Inventory</a></li>
+          <li><a class="nav-link" href="#suppliers">Suppliers</a></li>
+           <li><a class="nav-link" href="#sales_order">Sales Order</a></li>
+          <li><a class="nav-link" href="#purchase_order">Purchase Order</a></li>
+      </ul>
+    </nav>
+    <main id="main-doc">
+      <section class="main-section" id="dashboard">
+        <h1>Welcome back!</h1>
+        <nav class="navbar1">
+          <ul>
+            <li><a class="navLink" href="#stocks">Stock</a></li>
+            <li><a class="navLink" href="#orders">Orders</a></li>
+            <li><a class="navLink" href="#reporting">Reporting</a></li>
+          </ul>
+        </nav>
+      </section>
+      <div id="stocks" class="content-section active">
+      <div class="container">
+        <h2>Stock Count</h2>
+        <div class="table-container">
+        <table width="800">
+            <tr>
+                <th>Cover Image</th>
+                <th>Product Name</th>
+                <th>Genre</th>
+                <th>Copies available</th>
+                <th>Copies sold</th>
+            </tr>
+            <tr>
+                <td><img src="https://m.media-amazon.com/images/I/41wuB-s8vRL._SL500_.jpg"></td>
+                <td>Atomic Habits</td>
+                <td>Self development</td>
+                <td>200</td>
+                <td>52</td>
+            </tr>
+            <tr>
+                <td><img src="https://m.media-amazon.com/images/I/71spsLG+0cL._AC_UF1000,1000_QL80_.jpg" ></td>
+                <td>Latitudes of longing</td>
+                <td>Literary fiction</td>
+                <td>378</td>
+                <td>23</td>
+            </tr>
+            <tr>
+              <td><img src="https://m.media-amazon.com/images/I/A11V+0XEdzL._AC_UF1000,1000_QL80_.jpg"></td>
+              <td>Love in the time of cholera</td>
+              <td>Literary fiction</td>
+              <td>123</td>
+              <td>56</td>
+          </tr>
+          <tr>
+            <td><img src="https://m.media-amazon.com/images/I/611iKJa7a-L.jpg"></td>
+            <td>The name of the wind</td>
+            <td>Fantasy</td>
+            <td>232</td>
+            <td>112</td>
+        </tr>
+        <tr>
+          <td><img src="https://m.media-amazon.com/images/I/71kZMKFI1XL._UF1000,1000_QL80_.jpg"></td>
+          <td>The joy of cooking</td>
+          <td>cooking</td>
+          <td>213</td>
+          <td>133</td>
+      </tr>
+      <tr>
+        <td><img src="https://m.media-amazon.com/images/I/71XHJct7u3L.jpg"></td>
+        <td>Gardens of the moon</td>
+        <td>Fantasy</td>
+        <td>121</td>
+        <td>89</td>
+    </tr>
+    <tr>
+      <td><img src="https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1588329898i/53305670.jpg"></td>
+      <td>Dog flowers</td>
+      <td>Autobiography</td>
+      <td>122</td>
+      <td>90</td>
+    </tr><tr>
+      <td><img src="https://m.media-amazon.com/images/I/81GgpMj8ImL._AC_UF1000,1000_QL80_.jpg"></td>
+      <td>Dune</td>
+      <td>Science fiction</td>
+      <td>308</td>
+      <td>205</td>
+    </tr>
+    <tr>
+      <td><img src="https://m.media-amazon.com/images/I/71NWk4BHbHL.jpg"></td>
+      <td>The performance</td>
+      <td>Literary fiction</td>
+      <td>205</td>
+      <td>60</td>
+    </tr><tr>
+      <td><img src="https://m.media-amazon.com/images/I/91o0rbh4ASL._AC_UF1000,1000_QL80_.jpg"></td>
+      <td>River sing me home</td>
+      <td>Literary fiction</td>
+      <td>309</td>
+      <td>112</td>
+    </tr>
+        </table>
+        </div>
+      </div>
+    </div>
+    <div id="orders" class="content-section">
+      <div class="container">
+        <h2>Purchase orders due</h2>
+        <div class="table-container">
+        <table width="800">
+            <tr>
+                <th>Purchase Order ID</th>
+                <th>Order due date</th>
+                <th>Status</th>
+                <th>Items ordered</th>
+                <th>Order cost</th>
+            </tr>
+            <tr>
+                <td>70</td>
+                <td>Message</td>
+                <td style="background-color:rgb(88, 210, 88);">sent</td>
+                <td>60,61,62</td>
+                <td>$800</td>
+            </tr>
+            <tr>
+                <td>72</td>
+                <td>Message</td>
+                <td style="background-color:rgb(88, 210, 88);">sent</td>
+                <td>65,66</td>
+                <td>$7,300</td>
+            </tr>
+            <tr>
+              <td>60</td>
+              <td>Message</td>
+              <td style="background-color:rgb(88, 210, 88);">sent</td>
+              <td>12,13,14</td>
+              <td>$600</td>
+          </tr>
+          <tr>
+            <td>53</td>
+            <td>Message</td>
+            <td style="background-color:rgb(244, 59, 31);">draft</td>
+            <td>23,21,30</td>
+            <td>$112</td>
+        </tr>
+        <tr>
+          <td>34</td>
+          <td>Message</td>
+          <td  style="background-color:rgb(244, 59, 31);">draft</td>
+          <td>42,28,34</td>
+          <td>$1331</td>
+      </tr>
+      </table>
+      </div>
+    </div>
+    </div>
+    <div id="reporting" class="content-section">
+      <div class="container">
+        <h2>Sales Report</h2>
+        <h1>Sample Bar Graph</h1>
+        <div class="chart-container" style="width:500px;">
+          <canvas id="myBarChart"></canvas>
+        </div>      
+      </div>
+    </div>
+    </main>
+
+    <script>
+    // JavaScript to handle active link
+    const navLinks = document.querySelectorAll('.navLink');
+    const sections = document.querySelectorAll('.content-section');
+
+    function showSection(targetId) {
+      sections.forEach(section => {
+        section.classList.remove('active'); 
+      });
+      const targetSection = document.querySelector(targetId);
+      if (targetSection) {
+        targetSection.classList.add('active'); 
+      }
+    }
+
+    navLinks.forEach(link => {
+      link.addEventListener('click', (e) => {
+        e.preventDefault(); 
+
+        navLinks.forEach(nav => nav.classList.remove('active'));
+
+        link.classList.add('active');
+
+        const targetId = link.getAttribute('href');
+        
+        showSection(targetId);
+
+        const targetSection = document.querySelector(targetId);
+      });
+    });
+
+    showSection('#stocks');
+
+
+
+    // Sample Data for generating bar graph
+    const data = {
+      labels: ["January", "February", "March", "April", "May", "June", "July"],
+      datasets: [{
+        label: "Sales (in USD)",
+        data: [65, 59, 80, 81, 56, 55, 40],
+        backgroundColor: [
+          "rgba(255, 99, 132, 0.2)",
+          "rgba(54, 162, 235, 0.2)",
+          "rgba(75, 192, 192, 0.2)",
+          "rgba(153, 102, 255, 0.2)",
+          "rgba(255, 159, 64, 0.2)",
+          "rgba(199, 199, 199, 0.2)",
+          "rgba(83, 102, 255, 0.2)"
+        ],
+        borderColor: [
+          "rgba(255, 99, 132, 1)",
+          "rgba(54, 162, 235, 1)",
+          "rgba(75, 192, 192, 1)",
+          "rgba(153, 102, 255, 1)",
+          "rgba(255, 159, 64, 1)",
+          "rgba(199, 199, 199, 1)",
+          "rgba(83, 102, 255, 1)"
+        ],
+        borderWidth: 1
+      }]
+    };
+
+    // Configuration
+    const config = {
+      type: "bar",
+      data: data,
+      options: {
+        scales: {
+          y: {
+            beginAtZero: true
+          }
+        }
+      }
+    };
+    // Render the chart
+    const myBarChart = new Chart(
+      document.getElementById("myBarChart"),
+      config
+    );
+    </script>
+</body>
+</html>
