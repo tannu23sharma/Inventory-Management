@@ -196,7 +196,7 @@ th {
   display: none; /* For demonstration */
 }
 .content-section.active {
-  display: block; /* Show the active section */
+  display: block;
 }
 .content-section h2 {
   margin-bottom: 10px;
