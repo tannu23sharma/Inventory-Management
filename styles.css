@@ -20,7 +20,7 @@ header{
   }
   body{
     margin-left: 30px;
-    margin-top: 40px;
+    /* margin-top: 40px; */
     margin-bottom: 50px;
   }
   body {
@@ -55,10 +55,10 @@ header{
     padding-left: 10px;
   }
 
-  /* Add custom bullet icons */
+  /* custom bullet icons */
   #navbar ul li {
     position: relative;
-    padding-left: 30px; /* Space for the icon */
+    padding-left: 30px; 
     margin-bottom: 0px;
   }
 
@@ -193,7 +193,7 @@ th {
   border: 1px solid #ddd;
   border-radius: 5px;
   min-height: 300px;
-  display: none; /* For demonstration */
+  display: none; 
 }
 .content-section.active {
   display: block;
@@ -201,8 +201,45 @@ th {
 .content-section h2 {
   margin-bottom: 10px;
 }
-img{
+.table-container img{
   width: 50px;
   height: 50px;
   border-radius: 10px;
+}
+.chart-container{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: 0 40px;
+}
+/*Grids for inventory page*/
+.grid-container {
+  display: grid;
+  margin: 0;
+  grid-template-columns: repeat(3, 1fr); /* 3 equal columns */
+  gap: 40px; /* Space between grid items */
+}
+
+.grid-item {
+  background-color: #f4f4f4;
+  border: 1px solid #ddd;
+  padding:20px;
+  text-align: center;
+  border-radius: 15px;
+}
+
+.grid-item h3 {
+  margin-top: 0;
+}
+
+.grid-item p {
+  margin-bottom: 0;
+}
+.grid-item img{
+  width: 200px;
+  height: 200px;
+}
+#inventory{
+  overflow: auto;
 }
